@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coderbyte.First_Factorial",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderbyte.First_Reverse", "Coderbyte.First_Reverse\Coderbyte.First_Reverse.csproj", "{60A713AE-3A96-4C31-957E-0307AB9F025E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderbyte.Letter_Changes", "Coderbyte.Letter_Changes\Coderbyte.Letter_Changes.csproj", "{00FF3D49-6229-4771-A4E7-81F4BE9AD329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{60A713AE-3A96-4C31-957E-0307AB9F025E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60A713AE-3A96-4C31-957E-0307AB9F025E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60A713AE-3A96-4C31-957E-0307AB9F025E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FF3D49-6229-4771-A4E7-81F4BE9AD329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FF3D49-6229-4771-A4E7-81F4BE9AD329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FF3D49-6229-4771-A4E7-81F4BE9AD329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FF3D49-6229-4771-A4E7-81F4BE9AD329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
