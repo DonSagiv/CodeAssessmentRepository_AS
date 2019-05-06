@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderbyte.Longest_Word", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderbyte.Simple_Adding", "Coderbyte.Simple_Adding\Coderbyte.Simple_Adding.csproj", "{24F8CB6B-F83B-4B6A-95C4-C469038F7CF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoderByte.Letter_Capitalize", "CoderByte.Letter_Capitalize\CoderByte.Letter_Capitalize.csproj", "{BA815F44-271D-40A9-BE49-A9E2510E6F37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{24F8CB6B-F83B-4B6A-95C4-C469038F7CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24F8CB6B-F83B-4B6A-95C4-C469038F7CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24F8CB6B-F83B-4B6A-95C4-C469038F7CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA815F44-271D-40A9-BE49-A9E2510E6F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA815F44-271D-40A9-BE49-A9E2510E6F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA815F44-271D-40A9-BE49-A9E2510E6F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA815F44-271D-40A9-BE49-A9E2510E6F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
