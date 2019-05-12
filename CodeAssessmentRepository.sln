@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mountain_Finder", "Mountain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderwars.Two_To_One", "Coderwars.Two_To_One\Coderwars.Two_To_One.csproj", "{08606F89-6818-4C0F-89FF-8C1811E6D480}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_Euler.Even_Fibonacci_Numbers", "Project_Euler.Even_Fibonacci_Numbers\Project_Euler.Even_Fibonacci_Numbers.csproj", "{474D8530-0317-4604-9C3B-9F50360999C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{08606F89-6818-4C0F-89FF-8C1811E6D480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08606F89-6818-4C0F-89FF-8C1811E6D480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08606F89-6818-4C0F-89FF-8C1811E6D480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474D8530-0317-4604-9C3B-9F50360999C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474D8530-0317-4604-9C3B-9F50360999C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474D8530-0317-4604-9C3B-9F50360999C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474D8530-0317-4604-9C3B-9F50360999C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
