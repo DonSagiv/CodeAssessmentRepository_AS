@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coderbyte.Simple_Symbols", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project_Euler.Multiples_Of_3_And_5", "Project_Euler.Multiples_Of_3_And_5\Project_Euler.Multiples_Of_3_And_5.csproj", "{5B72F810-A31B-4939-9825-EC250A2710AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mountain_Finder", "Mountain_Finder\Mountain_Finder.csproj", "{68BDA6FD-1EE9-44FC-9C73-E73A7D09BF7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mountain_Finder", "Mountain_Finder\Mountain_Finder.csproj", "{68BDA6FD-1EE9-44FC-9C73-E73A7D09BF7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderwars.Two_To_One", "Coderwars.Two_To_One\Coderwars.Two_To_One.csproj", "{08606F89-6818-4C0F-89FF-8C1811E6D480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{68BDA6FD-1EE9-44FC-9C73-E73A7D09BF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68BDA6FD-1EE9-44FC-9C73-E73A7D09BF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68BDA6FD-1EE9-44FC-9C73-E73A7D09BF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08606F89-6818-4C0F-89FF-8C1811E6D480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08606F89-6818-4C0F-89FF-8C1811E6D480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08606F89-6818-4C0F-89FF-8C1811E6D480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08606F89-6818-4C0F-89FF-8C1811E6D480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

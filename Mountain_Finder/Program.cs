@@ -4,37 +4,36 @@ using System.Linq;
 
 namespace Mountain_Finder
 {
-    /*
-     * Consider a two-dimensional matrix comprised entirely of integers, where each integer value represents elevation.
-     * Given such a matrix, your goal is to find the total number of mountains in this "map."
-     * A mountain is defined as a group of contiguous tiles whose value is greater than or equal to 2.
-     * Two tiles are considered contiguous if they are adjacent in either in the horizontal or vertical direction - two tiles are NOT considered contiguous if they are adjacent to one another on a diagonal.
-     * 
-     * In the following three cases, only the "2" tiles in the first two cases are considered contiguous and thus form a single mountain. The last case shows two separate mountains, since the tiles are not adjacent in the horizontal or vertical direction, but instead are at a diagonal with respect to one another.
-     *
-     *  2 2        2 0        2 0
-     *  0 0        2 0        0 2
-     *
-     * Map:
-     * Two-dimensional matrix
-     * Comprised exclusively of integers
-     * Each element represents a tile in the map
-     * Each element's integer value represents elevation
-     * Mountain:
-     * A single contiguous area of tiles whose values are all at least 2
-     * Two tiles are considered contiguous (touching) when they are adjacent in the horizontal direction or in the vertical direction, but not in a diagonal
-     * 
-     * For example, take the following input:
-     * 1 1 0 1 2 0
-     * 0 2 3 1 2 0
-     * 1 3 3 1 2 0
-     * 0 1 1 1 3 0
-     * 1 2 3 2 1 1
-     * 1 3 4 3 1 1
-     * 
-     * This is a 6x6 map. The map itself contains a total of three (3) mountains, so your function should return "3."
-    */
-
+    /// <summary>
+    /// Consider a two-dimensional matrix comprised entirely of integers, where each integer value represents elevation.
+    /// Given such a matrix, your goal is to find the total number of mountains in this "map."
+    /// A mountain is defined as a group of contiguous tiles whose value is greater than or equal to 2.
+    /// Two tiles are considered contiguous if they are adjacent in either in the horizontal or vertical direction - two tiles are NOT considered contiguous if they are adjacent to one another on a diagonal.
+    /// 
+    /// In the following three cases, only the "2" tiles in the first two cases are considered contiguous and thus form a single mountain. The last case shows two separate mountains, since the tiles are not adjacent in the horizontal or vertical direction, but instead are at a diagonal with respect to one another.
+    ///
+    ///  2 2        2 0        2 0
+    ///  0 0        2 0        0 2
+    ///
+    /// Map:
+    /// Two-dimensional matrix
+    /// Comprised exclusively of integers
+    /// Each element represents a tile in the map
+    /// Each element's integer value represents elevation
+    /// Mountain:
+    /// A single contiguous area of tiles whose values are all at least 2
+    /// Two tiles are considered contiguous (touching) when they are adjacent in the horizontal direction or in the vertical direction, but not in a diagonal
+    /// 
+    /// For example, take the following input:
+    /// 1 1 0 1 2 0
+    /// 0 2 3 1 2 0
+    /// 1 3 3 1 2 0
+    /// 0 1 1 1 3 0
+    /// 1 2 3 2 1 1
+    /// 1 3 4 3 1 1
+    /// 
+    /// This is a 6x6 map. The map itself contains a total of three (3) mountains, so your function should return "3."
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
